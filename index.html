@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oxygen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
     <title>ToDo</title>
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <h1 class="name">ToDo List</h1>
+    <div class="wrp">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <h1 class="name">ToDo List</h1>
+                </div>
+            </header>
+            <main class="main">
+                <div class="container">
+                    <div class='f'>
+                        <input type="text" name="todo" id="todo">
+                        <button id="btn">Add</button>
+                    </div>
+                    <ul id="todo-list">
+                        <li class="to-do divider">Laundry</li>
+                        <li class="to-do divider">Coock</li>
+                        <li class="to-do divider">Sleep</li>
+                        <li class="to-do divider">Sleepasddddddddddddddddddddddddddddddddd</li>
+                    </ul>
+                </div>
+            </main>
         </div>
-    </header>
-    <main class="main">
-        <div class="container">
-            <ul class="todo-list">
-                <li class="to-do">Laundry</li>
-                <li class="to-do">Coock</li>
-                <li class="to-do">Sleep</li>
-            </ul>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <h2 class="info">Made by Butenko Nadezhda</h2>
+        <footer class="footer">
             <h3 class="creationdate">13/06/2021</h3>
             <div class="wrapper">
                 <ul class="list-of-links">
@@ -38,7 +46,10 @@
                     </li>
                 </ul>
             </div>
-        </div>
-    </footer>
+            <h3 class="info">Made by Butenko Nadezhda</h2>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
