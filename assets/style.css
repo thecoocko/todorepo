@@ -82,3 +82,6 @@ li{
     list-style-type: none;
     text-align: center;
 }
+li:hover{
+    background-color:  hsl(28, 5%, 84%);
+}
